@@ -112,3 +112,7 @@
     height: 319px;
   }
 }
+
+.image-rounded {
+  border-radius: 8px!important;
+}
