@@ -91,3 +91,7 @@
     font-size: 30px;
   }
 }
+
+.image-border-radius {
+  border-radius: 8px;
+}
