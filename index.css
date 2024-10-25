@@ -110,6 +110,11 @@
     max-width: 479px;
     height: 319px;
   }
+
+  .desktop-image2 {
+    padding-bottom: 16px;
+    padding-top: 16px;
+  }
 }
 
 .image-border-radius {
