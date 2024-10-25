@@ -85,10 +85,19 @@
   .desktop-image2 {
     padding-bottom: var(--dl-space-space-oneandhalfunits);
   }
+  
+  .desktop-container5 {
+    max-width: 991px;
+  }
+
 }
 @media(max-width: 479px) {
   .desktop-text1 {
     font-size: 30px;
+  }
+
+  .desktop-container5 {
+    max-width: 479px;
   }
 }
 
