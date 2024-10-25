@@ -42,26 +42,18 @@
   --dl-color-turquoise-800: rgba(30, 78, 81, 1);
   --dl-color-turquoise-900: rgba(29, 66, 68, 1);
   --dl-color-turquoise-950: rgba(11, 38, 40, 1);
-  --dl-radius-radius-round: 50%;
   --dl-color-theme-primary1: #BF4408;
   --dl-color-theme-primary2: #E65103;
   --dl-space-space-halfunit: 8px;
   --dl-space-space-sixunits: 96px;
   --dl-space-space-twounits: 32px;
-  --dl-radius-radius-radius2: 2px;
-  --dl-radius-radius-radius4: 4px;
-  --dl-radius-radius-radius8: 8px;
   --dl-space-space-fiveunits: 80px;
   --dl-space-space-fourunits: 64px;
   --dl-color-theme-secondary1: #FFFFFF;
   --dl-color-theme-secondary2: #FBF1EB;
   --dl-space-space-threeunits: 48px;
   --dl-color-theme-neutral-dark: #191818;
-  --dl-radius-radius-cardradius: 8px;
   --dl-color-theme-neutral-light: #FBFAF9;
-  --dl-radius-radius-imageradius: 8px;
-  --dl-radius-radius-inputradius: 24px;
-  --dl-radius-radius-buttonradius: 24px;
   --dl-space-space-oneandhalfunits: 24px;
 }
 .button {
@@ -70,7 +62,6 @@
   padding: 0.5rem 1rem;
   border-color: var(--dl-color-theme-neutral-dark);
   border-width: 1px;
-  border-radius: 4px;
   background-color: var(--dl-color-theme-neutral-light);
 }
 .input {
@@ -79,7 +70,6 @@
   padding: 0.5rem 1rem;
   border-color: var(--dl-color-theme-neutral-dark);
   border-width: 1px;
-  border-radius: 4px;
   background-color: var(--dl-color-theme-neutral-light);
 }
 .textarea {
@@ -88,7 +78,6 @@
   padding: 0.5rem;
   border-color: var(--dl-color-theme-neutral-dark);
   border-width: 1px;
-  border-radius: 4px;
   background-color: var(--dl-color-theme-neutral-light);
 }
 .list {
@@ -115,7 +104,6 @@
   text-align: center;
   border-color: var(--dl-color-theme-neutral-dark);
   border-width: 1px;
-  border-radius: var(--dl-radius-radius-inputradius);
   background-color: var(--dl-color-theme-neutral-light);
 }
 .thq-input:focus {
@@ -135,7 +123,6 @@
   border-color: var(--dl-color-theme-primary1);
   border-width: 1px;
   padding-left: var(--dl-space-space-oneandhalfunits);
-  border-radius: var(--dl-radius-radius-buttonradius);
   padding-right: var(--dl-space-space-oneandhalfunits);
   padding-bottom: var(--dl-space-space-halfunit);
   justify-content: center;
@@ -161,7 +148,6 @@
   white-space: nowrap;
   border-color: var(--dl-color-theme-primary1);
   padding-left: var(--dl-space-space-oneandhalfunits);
-  border-radius: var(--dl-radius-radius-buttonradius);
   padding-right: var(--dl-space-space-oneandhalfunits);
   padding-bottom: var(--dl-space-space-halfunit);
   justify-content: center;
@@ -186,7 +172,6 @@
   border-color: transparent;
   border-width: 1px;
   padding-left: var(--dl-space-space-oneandhalfunits);
-  border-radius: var(--dl-radius-radius-buttonradius);
   padding-right: var(--dl-space-space-oneandhalfunits);
   padding-bottom: var(--dl-space-space-halfunit);
   justify-content: center;
@@ -247,25 +232,21 @@
   width: 100%;
   object-fit: cover;
   aspect-ratio: 1/1;
-  border-radius: var(--dl-radius-radius-imageradius);
 }
 .thq-img-ratio-16-9 {
   width: 100%;
   object-fit: cover;
   aspect-ratio: 16/9;
-  border-radius: var(--dl-radius-radius-imageradius);
 }
 .thq-img-ratio-4-3 {
   width: 100%;
   object-fit: cover;
   aspect-ratio: 4/3;
-  border-radius: var(--dl-radius-radius-imageradius);
 }
 .thq-img-ratio-4-6 {
   width: 100%;
   object-fit: cover;
   aspect-ratio: 4/6;
-  border-radius: var(--dl-radius-radius-imageradius);
 }
 .thq-img-round {
   width: 100%;
@@ -301,7 +282,6 @@
   display: flex;
   padding: var(--dl-space-space-twounits);
   align-items: stretch;
-  border-radius: var(--dl-radius-radius-cardradius);
   flex-direction: column;
 }
 .thq-box-shadow {
@@ -332,7 +312,6 @@
   appearance: none;
   padding-top: var(--dl-space-space-halfunit);
   padding-left: var(--dl-space-space-unit);
-  border-radius: var(--dl-radius-radius-inputradius);
   padding-right: var(--dl-space-space-twounits);
   padding-bottom: var(--dl-space-space-halfunit);
   background-color: var(--dl-color-theme-neutral-light);
@@ -353,7 +332,6 @@
   fill: var(--dl-color-theme-secondary1);
   padding: 3px;
   transition: 0.3s;
-  border-radius: var(--dl-radius-radius-round);
 }
 .thq-button-icon:hover {
   fill: var(--dl-color-theme-secondary2);
@@ -451,12 +429,10 @@
   width: 100%;
   height: 100%;
   transition: transform 0.3s;
-  border-radius: var(--dl-radius-radius-cardradius);
   background-color: var(--dl-color-theme-accent1);
 }
 .thq-animated-card-bg-2 {
   transition: transform 0.3s;
-  border-radius: var(--dl-radius-radius-cardradius);
   background-color: var(--dl-color-theme-accent2);
 }
 .thq-button-animated {
@@ -493,7 +469,6 @@
   position: absolute;
   transform: scaleX(0);
   transition: transform 0.5s;
-  border-radius: var(--dl-radius-radius-buttonradius);
   background-color: var(--dl-color-theme-neutral-dark);
   transform-origin: 0 0;
   transition-timing-function: cubic-bezier(0.5, 1.6, 0.4, 0.7);
