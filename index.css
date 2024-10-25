@@ -90,6 +90,11 @@
     max-width: 991px;
   }
 
+  .image-border-radius {
+    max-width: 991px;
+  }
+}
+
 }
 @media(max-width: 479px) {
   .desktop-text1 {
@@ -97,6 +102,10 @@
   }
 
   .desktop-container5 {
+    max-width: 479px;
+  }
+
+  .image-border-radius {
     max-width: 479px;
   }
 }
