@@ -116,3 +116,12 @@
 .image-rounded {
   border-radius: 8px!important;
 }
+
+a {
+  color: #003EFF;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: #6500FF;
+}
