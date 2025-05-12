@@ -53,7 +53,7 @@
   text-align: center;
   font-family: "Plus Jakarta Sans";
   line-height: 1.8;
-  padding-top: 16px;
+  padding-top: 12px;
 }
 .desktop-container5 {
   flex: 0 0 auto;
@@ -120,7 +120,7 @@
 .button-container {
   display: flex;
   justify-content: center;
-
+  padding-top: 16px;
 }
 
 .cta-button {
