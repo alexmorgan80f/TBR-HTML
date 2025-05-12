@@ -125,3 +125,16 @@ a {
 a:hover {
   color: #6500FF;
 }
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  padding-top: 16px;
+  border-radius: 8px;
+  background-color: #003EFF;
+}
+
+.cta-button {
+  color: #FFFFFF;
+  text-decoration: none;
+}
