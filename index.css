@@ -117,24 +117,25 @@
   border-radius: 8px!important;
 }
 
-a {
-  color: #003EFF;
-  text-decoration: underline;
-}
-
-a:hover {
-  color: #6500FF;
-}
-
 .button-container {
   display: flex;
   justify-content: center;
-  padding-top: 16px;
-  border-radius: 8px;
-  background-color: #003EFF;
+
 }
 
 .cta-button {
   color: #FFFFFF;
   text-decoration: none;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 24px;
+  padding-right: 24px;
+  border-radius: 8px;
+  background-color: #003EFF;
 }
+
+.cta-button:hover {
+  background-color: #5501D6;
+}
+
+
